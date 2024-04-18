@@ -1,0 +1,11 @@
+const salaries={jack:24000,paul:34000,monica:55000}
+
+//using  for in
+for(let i in salary)
+{
+//add currency symbol
+let salary="$"+salaries[i];
+
+// display the value
+console.log(&{i} : ${salary});
+}
